@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>David Mclean | FrontEnd Developer</title>
+  </head>
+  <body>
+
+    <section class="hero">
+      <div class="img-container__hero">
+        <img class="avatar-img" src="assets/avatar.png" alt="" />
+      </div>
+
+      <main class="main__hero max-len side-pad">
+        <div class="detail__hero">
+          <p class="colored">Introduction</p>
+          <h1>Hi, I'm David Mclean. 👋</h1>
+          <p class="colored">
+            Based in the US, I'm a front-end developer passionate about building
+            web apps that users love. 🖱️
+          </p>
+          <p>
+            Currently, seeking a new team to join and help make something great.
+            👨🏾‍💻
+          </p>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/davupls"
+             target="_blank"><img src="assets/square-github.svg" alt="Github logo icon"
+          /></a>
+          <a href="https://www.linkedin.com/in/davidmmclean/"
+             target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn logo icon"
+          /></a>
+        </div>
+      </main>
+
+    </section>
+
+    <section class="projects side-pad">
+      <div class="max-len center-style">
+        <div class="project_title">
+          <p class="colored center-style">PROJECTS</p>
+          <h2>View projects and discover more.</h2>
+        </div>
+
+        <div class="container__projects max-len">
+          <article class="card__projects">
+            <div class="card--img"></div>
+            <section class="card--info">
+              <div>
+                <h3 class="title--card">Web News App UX Design</h3>
+                <p class="detail--card">
+                  Tech news website. Showing my ability to create popular content
+                  layouts. Incuding asides and mobile menu transitions.
+                </p>
+              </div>
+              <div>
+                <span class="tech-used">CSS3</span>
+                <span class="tech-used">HTML5</span>
+                <span class="tech-used">Github</span>
+              </div>
+            </section>
+          </article>
+  
+          <article class="card__projects">
+            <div class="card--img"></div>
+            <section class="card--info">
+              <div>
+                <h3 class="title--card">Web News App UX Design</h3>
+                <p class="detail--card">
+                  Tech news website. Showing my ability to create popular content
+                  layouts. Incuding asides and mobile menu transitions.
+                </p>
+              </div>
+              <div>
+                <span class="tech-used">CSS3</span>
+                <span class="tech-used">HTML5</span>
+                <span class="tech-used">Github</span>
+              </div>
+            </section>
+          </article>
+  
+          <article class="card__projects">
+            <div class="card--img"></div>
+            <section class="card--info">
+              <div>
+                <h3 class="title--card">Web News App UX Design</h3>
+                <p class="detail--card">
+                  Tech news website. Showing my ability to create popular content
+                  layouts. Incuding asides and mobile menu transitions.
+                </p>
+              </div>
+              <div>
+                <span class="tech-used">CSS3</span>
+                <span class="tech-used">HTML5</span>
+                <span class="tech-used">Github</span>
+              </div>
+            </section>
+          </article>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="about side-pad">
+      <div class="max-len center-style">
+        <div class="profile-img-container"></div>
+        <div class="info__about">
+          <h2 class="title__about">About Me</h2>
+          <p class="detail__about">
+            Little about me. I’m a tech enthusiast, and love building my
+            personal desktop while trying to stick to a budget. Into arts, music
+            and drama. Growing up my mother had me very involved in community
+            and church activities so found myself on the stage ALOT 😂.
+          </p>
+          <a class="btn-style btn__about" href="#contact">Contact Me</a>
+          <!-- <button class="btn-style btn__about">Contact Me</button> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="toolkit side-pad">
+      <div class="max-len center-style">
+        <h2 class="title__toolkit">My Toolkit 🧰</h2>
+        <div class="tools" class="tool-img">
+          <div class="tool-container">
+            <img class="tool-img" src="assets/square-js.svg" alt="" />
+            <p>JavaScript</p>
+          </div>
+          <div class="tool-container">
+            <img class="tool-img" src="assets/css3-alt.svg" alt="" />
+            <p>CSS</p>
+          </div>
+          <div class="tool-container">
+            <img class="tool-img" src="assets/html5.svg" alt="" />
+            <p>HTML5</p>
+          </div>
+          <div class="tool-container">
+            <img class="tool-img" src="assets/square-github.svg" alt="" />
+            <p>Github</p>
+          </div>
+          <div class="tool-container">
+            <img class="tool-img" src="assets/figma.svg" alt="" />
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form side-pad" id="contact">
+      <form class="side-pad max-len center-style" method="post" action="mailto:contact@davidmlean.dev">
+        <fieldset>
+          <label for="name">
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Enter your name"
+              minlength="2"
+              required
+            />
+          </label>
+
+          <label for="email">
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Your email"
+              required
+            />
+          </label>
+
+          <label for="message">
+            <textarea
+              id="message"
+              name="message"
+              type="text"
+              placeholder="Write your message"
+              minlength="20"
+              required
+            ></textarea>
+          </label>
+
+          <div>
+            <button class="btn-style btn__form">Send Message</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="connect side-pad">
+      <div class="max-len center-style">
+        <h2 class="title__connect">Let's Connect! 📨</h2>
+        <p class="detail__connect">
+          I’m currently looking for new opportunity, so feel free to send me a
+          message and I'll get back to you as soon as possible.
+        </p>
+
+        <div class="info__connect">
+          <div class="info--list">
+            <img class="info--img" src="assets/phone-solid.svg" alt="" />
+            <p>860-776-8022</p>
+          </div>
+          <div class="info--list">
+            <img class="info--img" src="assets/envelope-regular.svg" alt="" />
+            <p>davidmmclean@icloud.com</p>
+          </div>
+          <div class="info--list">
+            <img class="info--img" src="assets/location-dot-solid.svg" alt="" />
+            <p>Orlnado, Fl, USA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Developed by <strong>David Mclean</strong> 🫡</p>
+    </footer>
+  </body>
+</html>
