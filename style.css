@@ -152,13 +152,25 @@ h2 {
     font-size: 2.25rem;
 }
 
-.card--img {
-    background-image: url(assets/News-homepage.png);
+.card--img, .card--img-1,  .card--img-2 {
+    
     background-repeat: no-repeat;
     background-size: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 200px;
+}
+
+.card--img {
+    background-image: url(assets/News-homepage.png);
+}
+
+.card--img-1 {
+    background-image: url(assets/sunny-preview.jpg);
+}
+
+.card--img-2 {
+    background-image: url(assets/News-homepage.png);
 }
 
 .card__projects {
