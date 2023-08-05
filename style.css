@@ -182,6 +182,23 @@ h2 {
     box-shadow: 0px 10px 15px 6px rgba(0,0,0,0.1);
 }
 
+.source-links-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 0;
+    letter-spacing: 1px;
+}
+
+.source-link {
+    background-color: #C70039;
+    border: none;
+    color: #EBEBEB;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
 .card--info {
     padding: 1.5rem;
 }
