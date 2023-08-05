@@ -293,23 +293,38 @@ h2 {
 .tools {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    column-gap: 40px;
+    justify-content: center;
 }
 
 .tool-container {
     padding: 1rem 0;
     text-align: center;
-    width: 45%;
-}
-
-.tool-img {
-    width: 25%;
+    width: 20%;
 }
 
 @media screen and (min-width: 600px) {
     .toolkit {
         padding: 6rem 0;
     }
+
+    .tool-container {
+        padding: 1rem 0;
+        text-align: center;
+        width: 7%;
+    }
+
+    .tools {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        column-gap: 80px;
+        justify-content: center;
+    }
 }
+
+
 
 
 
