@@ -225,10 +225,15 @@ h2 {
     padding-bottom: 1.5625rem;
 }
 
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .tech-used {
     border-radius: 20px;
     padding: 6px 20px;
-    margin-bottom: 11px;
+    margin-bottom: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.05);
 }
 
