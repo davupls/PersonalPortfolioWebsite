@@ -189,6 +189,10 @@ h2 {
     letter-spacing: 1px;
 }
 
+.source-link:hover {
+    background-color: #C700B0;
+}
+
 .source-link {
     background-color: #C70039;
     border: none;
